@@ -1,8 +1,14 @@
 import { createStore } from 'redux';
 
-const initalState = {};
+const initalState = {
+            name: "",
+            address: "",
+            city: "",
+            state: "",
+            zipcode: ""
+};
 
-function reducer(state =initalState, action) {
+function reducer(state = initalState, action) {
     const { type, payload} = action;
     switch (type) {
         default:
