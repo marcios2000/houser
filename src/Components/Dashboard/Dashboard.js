@@ -21,7 +21,7 @@ class Dashboard extends Component {
                     <Link to='/wizard'><button>Add New Property</button></Link>
                 </nav>
                 <div>Home Listings</div>
-                <ol>{houseslist}</ol>
+                <ol></ol>
                     
                 
                 

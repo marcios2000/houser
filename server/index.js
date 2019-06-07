@@ -14,6 +14,7 @@ massive(CONNECTION_STRING).then(db => {
 }).catch(error => console.log(error))
 
 app.post('/api/houses', controller.create)
+app.delete('/api/houses', controller.delete)
 
 
 const PORT = 4444

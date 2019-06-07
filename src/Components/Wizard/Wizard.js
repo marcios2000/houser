@@ -55,6 +55,7 @@ class Wizard extends Component {
         return (
             <div>
             Add New Listing<Link to='./'><button>Cancel</button></Link>
+            
             <div><input onChange={e => this.handleChangeName(e.target.value)} placeholder='Property Name'/></div>
             <div><input onChange={e => this.handleChangeAddress(e.target.value)} placeholder='Address'/></div>
             <div>
