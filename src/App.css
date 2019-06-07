@@ -1,11 +1,10 @@
 .App {
   text-align: center;
+  background-color:#509872 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: #AFD4C0
 }
 
 .App-header {
