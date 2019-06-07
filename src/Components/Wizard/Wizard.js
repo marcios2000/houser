@@ -17,7 +17,7 @@ class Wizard extends Component {
     handleChange(val) {
         this.setState({
           input: val
-        });console.log(this.handleChange)
+        });
       }
     render () {
         return (
