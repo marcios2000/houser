@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <Header />
      </div> 
-      <Link to="/" className="links">Dashboard</Link>
-      <Link to="/wizard" className="links">Wizard</Link>
+      <Link to="/" className="links"></Link>
+      <Link to="/wizard" className="links"></Link>
 
       {routes}
     

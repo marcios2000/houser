@@ -6,7 +6,7 @@ class Dashboard extends Component {
     constructor() {
         super ();
         this.state = {
-            houseslist: ""
+            houseslist: []
         }
     }
     render () {
